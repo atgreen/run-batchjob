@@ -1,0 +1,6 @@
+---
+- name: Test ansible job
+  hosts: all
+  become: True
+  tasks:
+     - ping:
