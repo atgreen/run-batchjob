@@ -3,4 +3,4 @@
   hosts: all
   become: True
   tasks:
-     - ping:
+     - command: oc project
