@@ -2,5 +2,6 @@
 - name: Test ansible job
   hosts: all
   become: True
+  gather_facts: no
   tasks:
      - command: oc project
